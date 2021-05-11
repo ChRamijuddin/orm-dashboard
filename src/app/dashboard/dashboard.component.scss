@@ -1,0 +1,331 @@
+.main{
+//   padding: 0%;
+  margin: 20px;
+}
+agm-map{
+    height: 400px;
+ 
+}
+.sebm-google-map-container{
+    outline: 5px solid black !important;
+}
+.map-portion{
+    margin-top: 15px;
+}
+
+.first_row{
+ margin-top: 20px;
+
+ .col{
+     margin-left: 10px !important;
+ }
+}
+
+.second_row{
+    margin-top: 20px;
+    .crd-item{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        background-color: white;
+        border-radius: 15px;
+        border: 2px solid lightblue;
+    }
+    .test{
+        position: relative;
+        i{
+            position: absolute;
+            top: 22px;
+            left: 21px;
+    
+        }
+    }
+
+
+    .tracking{
+        background-color:  lightblue;
+        // width: 100px;
+        padding: 5px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+    }
+     .trip{
+        background-color: lightblue;
+        // width: ;
+        padding: 5px;
+        margin-top: 5px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+      }
+}
+
+.crd-item{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+.test {
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: rgb(34, 34, 71);
+    // align-items: center;
+    color: white;
+    position: relative;
+
+    i{
+        position: absolute;
+        top: 18px;
+        left: 24px;
+    }
+    .small-circle {
+        background-color: green;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: -3px;
+        left: 10px;
+
+    }
+  }
+
+  .tracking{
+    background-color: rgb(34, 34, 71);
+    // width: 100px;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .trip{
+    background-color: rgb(34, 34, 71);
+    // width: ;
+    padding: 5px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .icn-list{
+      i{
+          color: lightblue;
+        //   background-color: lightblue;
+        margin-top: 10px;
+      }
+    }
+
+    .third-row{
+      margin-top: 20px;
+
+      .test{
+        width: 55px;
+        height: 55px;
+        margin-top: 15px;
+        margin-left: 10px;
+          background-color: rgb(34, 34, 71) !important;
+      }
+    }
+  .activityChart{
+      margin-left: 10px;
+      margin-top: 10px;
+      background-color: lightblue;
+      border-radius: 10px;
+
+      .order-show{
+          margin-top: 33px;
+          margin-left: 15px;
+      }
+      .order-show_del{
+        margin-top: 25px;
+        margin-left: 15px;
+      }
+  }
+  .more-div{
+      color:white;
+    //   align-items: flex-end;
+    margin-left: 45%;
+      margin-right: 30px;
+     border-radius: 5px;
+  }
+  .order{
+    margin-top: 47px;
+    margin-left: 60px;
+  }
+  .deliver{
+    margin-top: 35px;
+    margin-left: 60px
+  }
+  .current_cart{
+    border:2px solid lightblue;
+  }
+  .calender_cart{
+    border:2px solid lightblue;
+  }
+  .status{
+    //   width: 15%;
+      margin-top: 10px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    text-align: center;
+    // padding: 5px;
+  }
+  .icon-row{
+    margin-top: 40px;
+    // margin-left: 20px;
+    i{
+        margin-left: 20px;
+    }
+  }
+  .icon-row_one{
+    margin-top: 20px;
+    // margin-left: 20px;
+    i{
+        margin-left: 20px;
+    }
+  }
+  .icon-row_two{
+    margin-top: 20px;
+    // margin-left: 20px;
+    i{
+        margin-left: 20px;
+    }
+  }
+  .icon-row_three{
+    margin-top: 20px;
+    // margin-left: 20px;
+    i{
+        margin-left: 20px;
+    }
+  }
+
+  .addEvent{
+      border-radius:10px ;
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: rgb(34, 34, 71) !important;
+
+  }
+  .vehicle{
+      color: blue;
+  }
+.green{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+.orange{
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+.red{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+.green_one{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+.orange_one{
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+.red_one{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.orderStatusCrd{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    h4{
+        margin-top: 15px !important;
+    }
+}
+
+.orderStatusCrd_one{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    h4{
+        margin-top: 15px;
+        color: white !important;
+    }
+}
+
+.progress_one{
+    height: 30px;
+    background-color:rgb(34, 34, 71) !important; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.progress-bar_one{
+    width: 25%;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+// bar chart circular
+#chart {
+  max-width: 450px;
+  // margin: 30px auto;
+}
+
+.apexcharts-legend text {
+  font-weight: bold;
+}
+// calender
+.calendar {
+  color: white;
+  width: 14rem;
+  margin-top: 30%;
+  padding-bottom: 20%;
+  margin-bottom: 40%;
+  // color: white;
+  // width: 25rem;
+  // height: 25rem;
+  // // background-color: #222227;
+  // box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+.date_setter{
+  margin-top: 20%;
+  margin-left: 14%;
+}
+::ng-deep .cal-month-view .cal-day-cell {
+  min-height: 0px !important; 
+  background-color: lightblue;
+  border-right: 0px right;
+}
+::ng-deep .cal-month-view .cal-cell-top {
+   min-height: 0px; 
+   margin-bottom: -15px !important;
+
+}
+::ng-deep .cal-month-view .cal-day-cell:not(:last-child) {
+  border-right-color: 0px right;
+}
+::ng-deep mwl-calendar-month-view{
+  margin-bottom: 30% !important;
+}
+
+::ng-deep.cal-month-view .cal-day-number{
+  margin-right: 0px;
+}
